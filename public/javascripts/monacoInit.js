@@ -10,7 +10,7 @@
         });
     }
     const editor = monaco.EditorLib.editor.create(document.getElementById('editor'), {
-        language: 'shell',
+        language: 'javascript',
         theme: 'vs-dark',
         wordWrap: 'on',
         wrappingIndent: 'same',
