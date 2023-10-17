@@ -1,8 +1,4 @@
 (async () => {
-    // un comment the below code to reproduce the issue.
-    // monaco.EditorLib.editor.getModels().forEach((m) => {
-    //     m.dispose();
-    // });
     if (!monaco.LanguageClientLib.wasVscodeApiInitialized()) {
         await monaco.LanguageClientLib.initServices({
             enableFilesService: true,
